@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.gluonhq.charm.glisten.control.TextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: D9D9D9D9;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox layoutX="149.0" prefHeight="74.0" prefWidth="301.0" style="-fx-border-style: solid; -fx-background-color: D9D9D9;">
+         <children>
+            <Text stroke="WHITE" strokeType="OUTSIDE" text="Avoid/Make couple teenager" textAlignment="CENTER" wrappingWidth="297.80224609375">
+               <font>
+                  <Font name="Gill Sans MT" size="25.0" />
+               </font>
+            </Text>
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <padding>
+            <Insets bottom="21.0" top="21.0" />
+         </padding>
+      </VBox>
+      <Button layoutX="14.0" layoutY="24.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="109.0" text="Back" />
+      <Button layoutX="470.0" layoutY="24.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="109.0" text="Avoid" />
+      <VBox layoutX="-2.0" layoutY="86.0" prefHeight="74.0" prefWidth="301.0" style="-fx-border-style: solid; -fx-background-color: D9D9D9;">
+         <children>
+            <Text stroke="WHITE" strokeType="OUTSIDE" text="Teenager List" textAlignment="CENTER" wrappingWidth="297.80224609375">
+               <font>
+                  <Font name="Gill Sans MT" size="25.0" />
+               </font>
+            </Text>
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <padding>
+            <Insets bottom="21.0" top="21.0" />
+         </padding>
+      </VBox>
+      <VBox layoutX="299.0" layoutY="86.0" prefHeight="74.0" prefWidth="301.0" style="-fx-border-style: solid; -fx-background-color: D9D9D9;">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <padding>
+            <Insets bottom="21.0" top="21.0" />
+         </padding>
+         <children>
+            <Text stroke="WHITE" strokeType="OUTSIDE" text="Teenager List" textAlignment="CENTER" wrappingWidth="297.80224609375">
+               <font>
+                  <Font name="Gill Sans MT" size="25.0" />
+               </font>
+            </Text>
+         </children>
+      </VBox>
+      <HBox layoutX="-2.0" layoutY="160.0" prefHeight="29.0" prefWidth="301.0" style="-fx-border-color: black;">
+         <children>
+            <ImageView fitHeight="22.0" fitWidth="23.0" preserveRatio="true">
+               <image>
+                  <Image url="@../../Documents/S2/SAE%202.01%202.02/img%20app/loupe.png" />
+               </image>
+               <HBox.margin>
+                  <Insets left="25.0" right="2.0" />
+               </HBox.margin>
+            </ImageView>
+            <TextField prefHeight="28.0" prefWidth="190.0" />
+         </children>
+         <padding>
+            <Insets right="5.0" top="1.5" />
+         </padding>
+      </HBox>
+      <HBox layoutX="299.0" layoutY="160.0" prefHeight="29.0" prefWidth="301.0" style="-fx-border-color: black;">
+         <children>
+            <ImageView fitHeight="22.0" fitWidth="23.0" preserveRatio="true">
+               <image>
+                  <Image url="@../../Documents/S2/SAE%202.01%202.02/img%20app/loupe.png" />
+               </image>
+               <HBox.margin>
+                  <Insets left="25.0" right="2.0" />
+               </HBox.margin>
+            </ImageView>
+            <TextField prefHeight="28.0" prefWidth="190.0" />
+         </children>
+         <padding>
+            <Insets right="5.0" top="1.5" />
+         </padding>
+      </HBox>
+      <ListView layoutX="-2.0" layoutY="189.0" prefHeight="212.0" prefWidth="301.0" />
+      <ListView layoutX="299.0" layoutY="189.0" prefHeight="212.0" prefWidth="301.0" />
+   </children>
+</AnchorPane>
